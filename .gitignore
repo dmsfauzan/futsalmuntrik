@@ -1,0 +1,28 @@
+# OS files
+Thumbs.db
+.DS_Store
+Desktop.ini
+
+# IDE / Editor
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.swo
+
+# PHP
+*.log
+error_log
+
+# Uploaded files (comment out if you want to track them)
+uploads/bukti/*
+uploads/izin/*
+!uploads/bukti/.gitkeep
+!uploads/izin/.gitkeep
+
+# Installer (security risk if exposed)
+install.php
+
+# Git
+*.orig
